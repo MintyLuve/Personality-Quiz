@@ -1,0 +1,50 @@
+/* STYLE SECTIONING TAGS */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 2em;
+  color: #2a9d56;
+  background-color: #e5ffed;
+  text-align: center;
+}
+
+
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  color: #03542a;
+}
+
+h2 {
+  margin-top: 2em; 
+}
+
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin: 10px;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+  border-radius: 20%;
+  border: 5px, solid;
+  border-color: #018347;
+}
+
+/* STYLE BUTTON */
+button { 
+  margin-top: 5px;
+  background-color: #018347;
+  color: #e5ffed;
+  border-radius: 15%;
+  border: 10px, solid;
+  border-color: #018347;
+  font-size: 20px;
+}
